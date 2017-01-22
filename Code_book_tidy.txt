@@ -1,0 +1,80 @@
+==================================================================
+DATA DICTIONARY - HUMAN ACTIVITY RECOGNITION USING SMARTPHONES DATASET
+==================================================================
+    Subj_no  				 3				Number assigned to test/training subjects ranging from 1:30
+
+Activity 				17
+				Activity performed by the subjects:
+					Walking
+					Walking_Upstairs
+					Walking_Downstairs
+					Sitting
+					Standing
+					Laying
+ 
+Avg_tBodyAcc-mean()|std()-XYZ		12
+				Time domain signals of the average mean or standard deviation of acceleration of a body for each of the performed activities in the X, Y or Z axis
+
+Avg_tGravityAcc-mean()|std()-XYZ	12
+				Time domain signals of the average mean or standard deviation of acceleration of a body due to gravity for each of the performed activities in the X, Y or Z axis
+
+AVG_tBodyAccJerk-mean()|std()-XYZ	12
+				Time domain signals of the average mean or standard deviation of acceleration of a body as it jerks during each of the performed activities in the X, Y or Z axis
+
+Avg_tBodyGyro-mean()|std()-XYZ		12
+				Time domain signals of the average mean or standard deviation of angular velocity of a body for each of the performed activities in the X, Y or Z axis
+
+Avg_tBodyGyroJerk-mean()|std()-XYZ	12
+				Time domain signals of the average mean or standard deviation of angular velocity of a body as it jerks during each of the performed activities 
+
+Avg_tBodyAccMag-mean()|std()		12
+				Time domain signals of the average mean or standard deviation of the magnitude of acceleration of a body for each of the performed activities
+
+Avg_tGravityAccMag-mean()|std()		12
+				Time domain signals of the average mean or standard deviation of the magnitude of acceleration of a body due to gravity for each of the performed activities
+
+Avg_tBodyAccJerkMag-mean()|std()	12
+				Time domain signals of the average mean or standard deviation of the magnitude of acceleration as a body jerks during each of the performed activities
+
+Avg_tBodyGyroMag-mean()|std()		12
+				Time domain signals of the average mean or standard deviation of the magnitude of the angular velocity of a body for each of the performed activities
+
+Avg_tBodyGyroJerkMag-mean()|std()	12
+				Time domain signals of the average mean or standard deviation of the magnitude of the angular velocity of a body as it jerks for each of the performed activities
+
+Avg_fBodyAcc-mean()|std()-XYZ		12
+				Frequency domain signals of the average mean or standard deviation of acceleration of a body for each of the performed activities in the X, Y or Z axis
+
+Avg_fBodyAccJerk-mean()|std()-XYZ	12
+				Frequency domain signals of the average mean or standard deviation of acceleration of a body as it jerks during each of the performed activities in the X, Y or Z axis
+
+Avg_fBodyGyro-mean()|std()-XYZ		12
+				Frequency domain signals of the average mean or standard deviation of angular velocity of a body for each of the performed activities in the X, Y or Z axis
+	
+Avg_fBodyAccMag-mean()|std()		12
+				Frequency domain signals of the average mean or standard deviation of the magnitude of acceleration of a body for each of the performed activities
+
+Avg_fBodyAccJerkMag-mean()|std()	12
+				Frequency domain signals of the average mean or standard deviation of the magnitude of acceleration as a body jerks during each of the performed activities
+
+Avg_fBodyGyroMag-mean()|std()		12
+				Frequency domain signals of the average mean or standard deviation of the magnitude of the angular velocity of a body for each of the performed activities
+
+Avg_fBodyGyroJerkMag-mean()|std()	12
+				Frequency domain signals of the average mean or standard deviation of the magnitude of the angular velocity of a body as it jerks for each of the performed activities
+		
+
+NOTE: variables names followed by ‘-mean()|std()-XYZ’ means the there exists six columns with a common prefix followed by mean or standard deviation of X, Y and Z.
+Example : Avg_tBodyAcc-mean()|std()-XYZ would mean, there exists six columns named ‘Avg_tBodyAcc-mean()-X’,’Avg_tBodyAcc-mean()-Y’,’Avg_tBodyAcc-mean()-Z’,’Avg_tBodyAcc-std()-X,’Avg_tBodyAcc-std()-Y’and ‘Avg_tBodyAcc-std()-Z’.
+
+
+NOTE: the frequency domain signals were derived on application of the Fast Fourier Transform method on some of the time domain signals
+
+
+
+
+
+
+
+
+
