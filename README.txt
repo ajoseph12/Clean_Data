@@ -21,7 +21,6 @@ The dataset includes the following files:
 - run_analysis.R script  
 - Code_book_tidy - Articulates the codes/abbreviations used for variables of column names
 - Tidy_set.txt : The tidy data set
-- Required Training and Testing files.
 
 Notes: 
 ======
